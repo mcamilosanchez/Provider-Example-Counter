@@ -66,7 +66,7 @@ class _Page1 extends State<Page1> {
               /* Aquí vamos a llamar el método que incrementa al counter 
               (nuestro estado) por medio de read. Recordar que read hace una 
               lectura única de un método o de una propiedad para poder MODIFICAR
-              el estado*/
+              el estado. */
               context.read<CounterProvider>().increment();
             },
             child: const Text('Sumar'),
